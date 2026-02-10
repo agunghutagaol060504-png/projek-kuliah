@@ -1,0 +1,7 @@
+{
+  "name": "pengaduan-karo",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

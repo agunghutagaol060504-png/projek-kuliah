@@ -1,0 +1,62 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title>Buat Laporan</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>
+        <ion-icon name="create-outline"></ion-icon>
+        Form Pengaduan
+      </ion-card-title>
+      <ion-card-subtitle>Isi laporan kejadian di Tanah Karo</ion-card-subtitle>
+    </ion-card-header>
+
+    <ion-card-content>
+
+      <ion-item>
+        <ion-icon name="document-text-outline" slot="start"></ion-icon>
+        <ion-input
+          label="Judul"
+          labelPlacement="floating"
+          [(ngModel)]="judul"
+          placeholder="Contoh: Banjir Kabanjahe">
+        </ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-icon name="chatbox-ellipses-outline" slot="start"></ion-icon>
+        <ion-textarea
+          label="Deskripsi"
+          labelPlacement="floating"
+          [(ngModel)]="deskripsi"
+          placeholder="Jelaskan kejadian secara singkat">
+        </ion-textarea>
+      </ion-item>
+
+      <ion-item>
+        <ion-icon name="pricetag-outline" slot="start"></ion-icon>
+        <ion-input
+          label="Kategori"
+          labelPlacement="floating"
+          [(ngModel)]="kategori"
+          placeholder="Contoh: Bencana Alam">
+        </ion-input>
+      </ion-item>
+
+      <ion-button
+        expand="block"
+        color="primary"
+        class="ion-margin-top"
+        (click)="simpan()">
+        <ion-icon name="save-outline" slot="start"></ion-icon>
+        Simpan Laporan
+      </ion-button>
+
+    </ion-card-content>
+  </ion-card>
+
+</ion-content>

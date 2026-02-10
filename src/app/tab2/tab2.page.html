@@ -1,0 +1,26 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title>Daftar Laporan</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+
+  <ion-card *ngFor="let item of laporan">
+    <ion-card-header>
+      <ion-card-title>{{ item.judul }}</ion-card-title>
+      <ion-card-subtitle>{{ item.kategori }}</ion-card-subtitle>
+    </ion-card-header>
+
+    <ion-card-content>
+      <p><strong>Deskripsi:</strong> {{ item.deskripsi }}</p>
+      <p><strong>Status:</strong> {{ item.status || 'Belum ada status' }}</p>
+      <p><strong>Tanggal:</strong> {{ item.tanggal }}</p>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-item *ngIf="laporan.length === 0">
+    <ion-label class="ion-text-center">Tidak ada data laporan</ion-label>
+  </ion-item>
+
+</ion-content>
