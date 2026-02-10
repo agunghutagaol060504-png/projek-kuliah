@@ -6,7 +6,7 @@ Aplikasi pengaduan berbasis Ionic + XAMPP.
 
 Klik link berikut untuk mencoba aplikasi secara langsung:
 
-👉 https://app.netlify.com/projects/teal-puppy-57b1b6/overview
+👉 https://teal-puppy-57b1b6.netlify.app/
 
 ---
 
