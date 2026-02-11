@@ -14,3 +14,9 @@ Klik link berikut untuk mencoba aplikasi secara langsung:
 - Ionic Angular
 - PHP (XAMPP)
 - MySQL
+
+## 🎥 Video Demo
+
+Klik untuk melihat video demo aplikasi:
+[Klik di sini untuk menonton]
+(https://drive.google.com/file/d/19AUpV-ZRtWBH9O1PCthZs-px7SQ2ZzWi/view?usp=drivesdk)
